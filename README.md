@@ -33,7 +33,8 @@ For example, the word "machine" would be tokenized as:
 ```
 ["m", "a", "c", "h", "i", "n", "e"]
 ```
-
+<br><br>
+<br><br>
 
 # Named Entity & Noun Chunks using "spaCy":
 # 1. Named Entity Recognition (NER):
@@ -42,9 +43,13 @@ Some common Named Entity labels you may encounter for named entities are:
 PERSON: People, including fictional.
 
 NORP: Nationalities or religious/political groups.
+
 ORG: Organizations, companies, agencies.
+
 GPE: Geopolitical entities (countries, cities).
+
 MONEY: Monetary values.
+
 DATE: Dates, periods.
 
 spaCy automatically identifies entities like people, organizations, locations, monetary values, etc.
