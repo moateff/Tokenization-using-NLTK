@@ -4,7 +4,7 @@ breaking down a sequence of text (such as a sentence or paragraph) into smaller 
 Tokens can be words, sub words, or even characters, depending on the granularity. It’s a fundamental
 step in preparing textual data for input into machine learning models, particularly those used for tasks 
 such as text classification, translation, or sentiment analysis
-
+<br><br>
 # Types of Tokenization:
 # 1. Sentence Tokenization:
 This refers to breaking down text into its component sentences, which is particularly useful in tasks 
@@ -13,12 +13,14 @@ models are evolving rapidly. Tokenization is crucial in NLP tasks." would be tok
 ```
 ["Machine learning models are evolving rapidly. ", "Tokenization is crucial in NLP tasks. "]
 ```
+
 # 2. Word Tokenization:
 This involves splitting a text into its component words. For example, the sentence "Machine learning is 
 fascinating" would be tokenized into:
 ```
 ["Machine", "learning", "is", "fascinating"]
 ```
+
 # 3. Subword Tokenization:
 In some cases, it's more effective to split words into smaller subword units. This is useful for handling 
 rare words, as breaking them down into known subword parts allows the model to better generalize. 
@@ -27,13 +29,13 @@ Subword tokenization methods like Byte Pair Encoding (BPE) or WordPiece (used in
 ```
 ["un", "##happy", "##ness"]
 ```
+
 # 4. Character Tokenization:
 In some cases, tokenizing at the character level can be beneficial, especially for tasks like text generation. 
 For example, the word "machine" would be tokenized as: 
 ```
 ["m", "a", "c", "h", "i", "n", "e"]
 ```
-<br><br>
 <br><br>
 
 # Named Entity & Noun Chunks using "spaCy":
@@ -54,7 +56,7 @@ DATE: Dates, periods.
 
 spaCy automatically identifies entities like people, organizations, locations, monetary values, etc.
 Each entity has a text (the entity itself) and a label_ (the type of the entity).
-
+<br><br>
 # 2. Noun Chunks:
 Noun chunks are contiguous spans of tokens that form meaningful subjects or objects in the sentence.
 spaCy identifies noun phrases (or noun chunks) in the text. doc.noun_chunks contains all the noun chunks.
