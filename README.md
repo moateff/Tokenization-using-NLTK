@@ -6,7 +6,7 @@ step in preparing textual data for input into machine learning models, particula
 such as text classification, translation, or sentiment analysis
 
 # Types of Tokenization:
-# 1. Sentence Tokenization:
+1. Sentence Tokenization:
 This refers to breaking down text into its component sentences, which is particularly useful in tasks 
 like document summarization or sentiment analysis at the sentence level. For example "Machine learning 
 models are evolving rapidly. Tokenization is crucial in NLP tasks." would be tokenized into:
