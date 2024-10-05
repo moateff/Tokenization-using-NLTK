@@ -8,15 +8,21 @@ such as text classification, translation, or sentiment analysis
 # Types of Tokenization:
 # 1. Sentence Tokenization:
 This refers to breaking down text into its component sentences, which is particularly useful in tasks 
-like document summarization or sentiment analysis at the sentence level. For example "Machine learning 
-models are evolving rapidly. Tokenization is crucial in NLP tasks." would be tokenized into:
+like document summarization or sentiment analysis at the sentence level. For example 
+```
+"Machine learning models are evolving rapidly. Tokenization is crucial in NLP tasks." 
+```
+would be tokenized into:
 ```
 ["Machine learning models are evolving rapidly. ", "Tokenization is crucial in NLP tasks. "]
 ```
 
 # 2. Word Tokenization:
-This involves splitting a text into its component words. For example, the sentence "Machine learning is 
-fascinating" would be tokenized into:
+This involves splitting a text into its component words. For example, the sentence 
+```
+"Machine learning is fascinating" 
+```
+would be tokenized into:
 ```
 ["Machine", "learning", "is", "fascinating"]
 ```
@@ -25,14 +31,21 @@ fascinating" would be tokenized into:
 In some cases, it's more effective to split words into smaller subword units. This is useful for handling 
 rare words, as breaking them down into known subword parts allows the model to better generalize. 
 Subword tokenization methods like Byte Pair Encoding (BPE) or WordPiece (used in BERT). For example, 
-"unhappiness" could be tokenized as: 
+```
+"unhappiness"
+```
+would be tokenized as: 
 ```
 ["un", "##happy", "##ness"]
 ```
 
 # 4. Character Tokenization:
 In some cases, tokenizing at the character level can be beneficial, especially for tasks like text generation. 
-For example, the word "machine" would be tokenized as: 
+For example, the word 
+```
+"machine"
+```
+would be tokenized as: 
 ```
 ["m", "a", "c", "h", "i", "n", "e"]
 ```
