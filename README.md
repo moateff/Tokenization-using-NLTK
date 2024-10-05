@@ -54,19 +54,14 @@ would be tokenized as:
 # Named Entity & Noun Chunks using "spaCy":
 # 1. Named Entity Recognition (NER):
 Some common Named Entity labels you may encounter for named entities are:
-
+```
 PERSON: People, including fictional.
-
 NORP: Nationalities or religious/political groups.
-
 ORG: Organizations, companies, agencies.
-
 GPE: Geopolitical entities (countries, cities).
-
 MONEY: Monetary values.
-
 DATE: Dates, periods.
-
+```
 spaCy automatically identifies entities like people, organizations, locations, monetary values, etc.
 Each entity has a text (the entity itself) and a label_ (the type of the entity).
 <br><br>
@@ -75,8 +70,10 @@ Noun chunks are contiguous spans of tokens that form meaningful subjects or obje
 spaCy identifies noun phrases (or noun chunks) in the text. doc.noun_chunks contains all the noun chunks.
 
 Example Output
-For the input text: "Apple is looking at buying U.K. startup for $1 billion. Elon Musk's Tesla is also interested."
-
+For the input text: 
+```
+"Apple is looking at buying U.K. startup for $1 billion. Elon Musk's Tesla is also interested."
+```
 Named Entities:
 ```
 Apple ORG
